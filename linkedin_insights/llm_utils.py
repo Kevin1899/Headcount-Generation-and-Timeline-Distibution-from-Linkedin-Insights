@@ -29,7 +29,7 @@ def call_gpt(
     prompt: str,
     temperature: float = 0.3,
     system_prompt: Optional[str] = None,
-    max_tokens: int = 1024,
+    max_tokens: int = 2000,
 ) -> str:
     """
     Calls OpenAI ChatCompletion API and returns the raw content string.
