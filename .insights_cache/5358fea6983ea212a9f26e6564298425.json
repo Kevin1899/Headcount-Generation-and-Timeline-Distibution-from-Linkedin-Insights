@@ -1,0 +1,401 @@
+{
+  "company_profile": {
+    "employees_current": 52431,
+    "hires_last_12_months": 8280,
+    "growth_rate_percent_1y": 4,
+    "attrition_percent_1y": 12,
+    "open_jobs": 2970,
+    "industry": "Software Development",
+    "headquarters": "Redmond, Washington, United States",
+    "founded_year": null,
+    "company_type": "Public Company"
+  },
+  "workforce_trend": {
+    "growth_6m_percent": 2,
+    "growth_1y_percent": 4
+  },
+  "talent_flow": {
+    "hires": 8280,
+    "departures": 5982,
+    "net_change": 2298
+  },
+  "top_functions_percent": [
+    {
+      "function": "Engineering",
+      "percent_employees": 40
+    },
+    {
+      "function": "Information Technology",
+      "percent_employees": 13
+    },
+    {
+      "function": "Sales",
+      "percent_employees": 8
+    },
+    {
+      "function": "Program and Project Management",
+      "percent_employees": 6
+    },
+    {
+      "function": "Administrative",
+      "percent_employees": 3
+    }
+  ],
+  "function_headcount": [
+    {
+      "function": "Engineering",
+      "headcount": 20941
+    },
+    {
+      "function": "Information Technology",
+      "headcount": 6662
+    },
+    {
+      "function": "Sales",
+      "headcount": 4092
+    }
+  ],
+  "locations": [
+    {
+      "location": "Greater Bengaluru Area",
+      "employees": 8525,
+      "hires_1y": 1675,
+      "growth_1y_percent": 10,
+      "percent_employees": 16,
+      "attrition_percent": 11
+    },
+    {
+      "location": "Greater Hyderabad Area",
+      "employees": 8147,
+      "hires_1y": 1013,
+      "growth_1y_percent": 5,
+      "percent_employees": 16,
+      "attrition_percent": 8
+    },
+    {
+      "location": "Greater Delhi Area",
+      "employees": 3205,
+      "hires_1y": 658,
+      "growth_1y_percent": 8,
+      "percent_employees": 6,
+      "attrition_percent": 13
+    },
+    {
+      "location": "Beijing, China",
+      "employees": 2548,
+      "hires_1y": 69,
+      "growth_1y_percent": 1,
+      "percent_employees": 5,
+      "attrition_percent": 2
+    },
+    {
+      "location": "Shanghai, China",
+      "employees": 1817,
+      "hires_1y": 51,
+      "growth_1y_percent": -1,
+      "percent_employees": 3,
+      "attrition_percent": 3
+    }
+  ],
+  "companies": {
+    "top_hire_sources": [
+      {
+        "company": "Amazon",
+        "hires": 189
+      },
+      {
+        "company": "Amazon Web Services (AWS)",
+        "hires": 140
+      },
+      {
+        "company": "Intel Corporation",
+        "hires": 125
+      },
+      {
+        "company": "Google",
+        "hires": 114
+      },
+      {
+        "company": "Oracle",
+        "hires": 98
+      }
+    ],
+    "top_departure_destinations": [
+      {
+        "company": "Google",
+        "departures": 242
+      },
+      {
+        "company": "Salesforce",
+        "departures": 133
+      },
+      {
+        "company": "Amazon",
+        "departures": 43
+      },
+      {
+        "company": "Oracle",
+        "departures": 42
+      },
+      {
+        "company": "Atlassian",
+        "departures": 36
+      }
+    ]
+  },
+  "industries": [
+    {
+      "industry": "Software Development",
+      "hires": 1365,
+      "departures": 924,
+      "net_change": 441
+    },
+    {
+      "industry": "IT Services and IT Consulting",
+      "hires": 729,
+      "departures": 326,
+      "net_change": 403
+    },
+    {
+      "industry": "Technology, Information and Media",
+      "hires": 210,
+      "departures": 95,
+      "net_change": 115
+    },
+    {
+      "industry": "IT System Design Services",
+      "hires": 166,
+      "departures": 65,
+      "net_change": 101
+    },
+    {
+      "industry": "Semiconductor Manufacturing",
+      "hires": 196,
+      "departures": 19,
+      "net_change": 177
+    }
+  ],
+  "skills": {
+    "top_skills": [
+      {
+        "skill": "Azure SQL",
+        "employees": 14894,
+        "hires_1y": 1773,
+        "growth_1y_percent": 2
+      },
+      {
+        "skill": "Microsoft 365",
+        "employees": 13007,
+        "hires_1y": 1267,
+        "growth_1y_percent": -1
+      },
+      {
+        "skill": "Microsoft Azure Machine Learning",
+        "employees": 12981,
+        "hires_1y": 1729,
+        "growth_1y_percent": 2
+      },
+      {
+        "skill": "Microsoft Servers",
+        "employees": 12886,
+        "hires_1y": 1357,
+        "growth_1y_percent": 1
+      },
+      {
+        "skill": "Azure DevOps Services",
+        "employees": 12885,
+        "hires_1y": 1782,
+        "growth_1y_percent": 3
+      }
+    ],
+    "fastest_growing": [
+      {
+        "skill": "MongoDB",
+        "growth_1y_percent": 20
+      },
+      {
+        "skill": "REST APIs",
+        "growth_1y_percent": 17
+      },
+      {
+        "skill": "Elasticsearch",
+        "growth_1y_percent": 16
+      },
+      {
+        "skill": "Representational State Transfer (REST)",
+        "growth_1y_percent": 16
+      },
+      {
+        "skill": "Spring Framework",
+        "growth_1y_percent": 15
+      }
+    ]
+  },
+  "education": {
+    "degrees": [
+      {
+        "degree": "Master of Business Administration",
+        "percent": 12
+      },
+      {
+        "degree": "Master's Degree",
+        "percent": 30
+      },
+      {
+        "degree": "Associate's Degree",
+        "percent": 1
+      },
+      {
+        "degree": "Bachelor's Degree",
+        "percent": 56
+      },
+      {
+        "degree": "Doctor of Philosophy",
+        "percent": 2
+      }
+    ],
+    "top_schools": [
+      {
+        "school": "Birla Institute of Technology and Science, Pilani",
+        "employees": 851,
+        "hires_1y": 130,
+        "growth_1y_percent": 8
+      },
+      {
+        "school": "Kendriya Vidyalaya",
+        "employees": 533,
+        "hires_1y": 84,
+        "growth_1y_percent": 5
+      },
+      {
+        "school": "Savitribai Phule Pune University",
+        "employees": 390,
+        "hires_1y": 44,
+        "growth_1y_percent": -3
+      },
+      {
+        "school": "Visvesvaraya Technological University",
+        "employees": 360,
+        "hires_1y": 59,
+        "growth_1y_percent": 7
+      },
+      {
+        "school": "Vellore Institute of Technology",
+        "employees": 354,
+        "hires_1y": 62,
+        "growth_1y_percent": 6
+      }
+    ],
+    "fields_of_study": [
+      {
+        "field": "Computer Science",
+        "employees": 11170,
+        "hires_1y": 1743,
+        "growth_1y_percent": 6
+      },
+      {
+        "field": "Computational Science",
+        "employees": 9959,
+        "hires_1y": 1602,
+        "growth_1y_percent": 6
+      },
+      {
+        "field": "Information Technology",
+        "employees": 4092,
+        "hires_1y": 636,
+        "growth_1y_percent": 5
+      },
+      {
+        "field": "Computer Engineering",
+        "employees": 3562,
+        "hires_1y": 670,
+        "growth_1y_percent": 9
+      },
+      {
+        "field": "Electrical, Electronics and Communications Engineering",
+        "employees": 3135,
+        "hires_1y": 574,
+        "growth_1y_percent": 11
+      }
+    ]
+  },
+  "tenure": {
+    "median_company_tenure_years": 3.6,
+    "median_experience_years": 11,
+    "high_tenure_functions": [
+      {
+        "function": "Customer Success and Support",
+        "tenure_years": 5.7
+      },
+      {
+        "function": "Business Development",
+        "tenure_years": 5.5
+      },
+      {
+        "function": "Program and Project Management",
+        "tenure_years": 5.5
+      }
+    ],
+    "low_tenure_functions": [
+      {
+        "function": "Education",
+        "tenure_years": 1.8
+      },
+      {
+        "function": "Community and Social Services",
+        "tenure_years": 2.9
+      },
+      {
+        "function": "Healthcare Services",
+        "tenure_years": 3.1
+      }
+    ]
+  },
+  "attrition_breakdown": {
+    "by_function": [
+      {
+        "function": "Engineering",
+        "attrition_percent": 9
+      },
+      {
+        "function": "Information Technology",
+        "attrition_percent": 11
+      },
+      {
+        "function": "Sales",
+        "attrition_percent": 10
+      },
+      {
+        "function": "Program and Project Management",
+        "attrition_percent": 6
+      },
+      {
+        "function": "Administrative",
+        "attrition_percent": 26
+      }
+    ],
+    "by_location": [
+      {
+        "location": "Greater Bengaluru Area",
+        "attrition_percent": 11
+      },
+      {
+        "location": "Greater Hyderabad Area",
+        "attrition_percent": 8
+      },
+      {
+        "location": "Greater Delhi Area",
+        "attrition_percent": 13
+      },
+      {
+        "location": "Beijing, China",
+        "attrition_percent": 2
+      },
+      {
+        "location": "Shanghai, China",
+        "attrition_percent": 3
+      }
+    ]
+  },
+  "sample_profiles": []
+}
