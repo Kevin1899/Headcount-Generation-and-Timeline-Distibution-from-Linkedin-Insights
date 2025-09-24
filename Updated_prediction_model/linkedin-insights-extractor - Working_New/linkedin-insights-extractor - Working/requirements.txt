@@ -1,0 +1,7 @@
+# Core dependencies
+pymupdf>=1.24.0           # PDF parsing via fitz
+openai>=1.3.7             # OpenAI Python client for GPT-4o, supports ChatCompletion
+python-dotenv>=1.0.0      # .env file support
+
+# Dev / testing
+pytest>=7.4.0             # Unit-testing framework

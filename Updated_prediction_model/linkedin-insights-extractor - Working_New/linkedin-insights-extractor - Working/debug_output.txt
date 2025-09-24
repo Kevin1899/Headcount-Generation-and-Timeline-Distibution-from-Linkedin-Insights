@@ -1,0 +1,2111 @@
+EMPLOYEES: 52,431
+HIRES: 8,280
+ATTRITION: 12%
+JOBS: 2,970
+
+Microsoft APAC
+Company Report
+Created on: 12/3/2024
+by Sherif (Soli) S
+T A L E N T  I N S I G H T S
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+
+ 
+Table of contents
+Report Filters
+1
+Overview
+2
+How is this workforce distributed by location?
+4
+How has this workforce trended over time?
+6
+How have hires and departures trended over time?
+7
+From what companies is Microsoft winning and losing talent?
+8
+Where has Microsoft won and lost talent over the last 12 months?
+9
+From what industries has Microsoft won and lost talent from over the last 12 months?
+11
+How tenured is this workforce?
+12
+How experienced is this workforce?
+13
+What skills does this workforce have?
+14
+What is attrition by function?
+15
+What is attrition by location?
+16
+What schools is Microsoft hiring talent from?
+18
+What degrees does this talent have?
+19
+What are the fields of study for this talent?
+20
+Sample Profiles
+21
+How is this workforce distributed by title?
+29
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+
+Report Filters
+Company
+INCLUDES
+Location
+INCLUDES
+Employment Type
+INCLUDES
+Microsoft
+APAC
+Full-time
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 1
+
+Company Report | Overview
+Created by Sherif (Soli) S
+Company overview
+How is this workforce distributed?
+EMPLOYEES
+The number of employees with an active position at 
+this company listed on their LinkedIn profile.
+HIRES
+The number of professionals with an active position at 
+this company listed on their LinkedIn profile and a 
+position start date within the past 12 months.
+GROWTH RATE
+The percentage change in number of employees 
+compared to the number of employees one year ago.
+ATTRITION
+A professional is considered to have departed their 
+previous company if they have added a position with a 
+new company on their LinkedIn profile and provided 
+an end date for the position at their previous company.
+JOBS
+The number of open job posts that match the search 
+criteria. Job posts are aggregated from more than 
+40K+ sources globally.
+TOP LOCATIONS
+The top locations of employees at this company who 
+have a location listed on their LinkedIn profile.
+TOP FUNCTIONS
+The top functions of employees at this company who 
+have a job title associated with an active position on 
+their profile.
+52,431
+8,280
+12%
+2,970
+Top functions
+% Employees
+Engineering
+40%
+Information Technology
+13%
+Sales
+8%
+Program and Project Management
+6%
+Administrative
+3%
+Microsoft
+Employees
+4%
+Hires
+Attrition
+Jobs
+Industry
+Software Development
+Headquarters
+Redmond, Washington,
+United States
+Founded
+--
+Type
+Public Company
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 2
+
+Company Report | Overview
+Created by Sherif (Soli) S
+Where is this company winning and losing talent?
+What skills does this workforce have and how is this changing?
+What schools did this workforce attend?
+DEPARTURES
+The top companies employees at this company have 
+departed to over the past twelve months.
+HIRES
+The top companies employees at this company have 
+joined from over the past twelve months.
+TOP SKILLS
+The top skills of employees at this company who have 
+a skill listed in the skills section of their LinkedIn profile.
+FASTEST GROWING SKILLS
+The percentage change in number of employees with 
+this skill compared to the number of employees who 
+had this skill one year ago.
+TOP SCHOOLS
+The top schools of employees at this company who 
+have a school listed in the education section of their 
+LinkedIn profile.
+TOP FIELDS OF STUDY
+The top fields of study of employees at this company 
+who have a field of study listed in the education 
+section of their LinkedIn profile.
+Most departures to
+1y departures
+Google
+242
+Salesforce
+133
+Amazon
+43
+Oracle
+42
+Atlassian
+36
+Most hires from
+1y hires
+Amazon
+189
+Amazon Web Services (AWS)
+140
+Intel Corporation
+125
+Google
+114
+Oracle
+98
+Top skills
+Employees
+Azure SQL
+14,894
+Microsoft 365
+13,007
+Microsoft Azure Machine Learning
+12,981
+Microsoft Servers
+12,886
+Azure DevOps Services
+12,885
+Fast growing skills
+1y growth
+MongoDB
+20%
+REST APIs
+17%
+Elasticsearch
+16%
+Representational State Transfer (REST)
+16%
+Spring Framework
+15%
+Top schools
+Employees
+Birla Institute of Technology and Science, Pilani
+851
+Kendriya Vidyalaya
+533
+Savitribai Phule Pune University
+390
+Visvesvaraya Technological University
+360
+Vellore Institute of Technology
+354
+Top fields of study
+Employees
+Computer Science
+11,170
+Computational Science
+9,959
+Information Technology
+4,092
+Computer Engineering
+3,562
+Electrical, Electronics and Communications Engineering
+3,135
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 3
+
+Company Report | Location
+Created by Sherif (Soli) S
+How is this workforce distributed by location?
+This module summarizes the number of employees in a location and how this has changed over time.
+Location (100)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Greater Bengaluru Area
+8,525
+10%
+1,675
+ 16%
+ 0%
+Greater Hyderabad Area
+8,147
+5%
+1,013
+ 16%
+ 0%
+Greater Delhi Area
+3,205
+8%
+658
+ 6%
+ 0%
+Beijing, China
+City
+2,548
+1%
+69
+ 5%
+ 0%
+Shanghai, China
+City
+1,817
+-1%
+51
+ 3%
+ 0%
+Pakistan
+Country/Territory
+1,765
+-1%
+349
+ 3%
+ 0%
+LOCATION
+A member's location is determined by the 
+location the member has selected on their 
+LinkedIn profile.
+EMPLOYEES
+The number of professionals with an active 
+position at Microsoft listed on their LinkedIn 
+profile.
+1Y HIRES
+The number of professionals with a position 
+start date at Microsoft within the past 12 
+months.
+1Y GROWTH
+The percentage change in number of 
+employees in this location compared to the 
+number of employees in this location one 
+year ago. Growth rates are not provided if 
+there were no employees in this location in 
+the prior year.
+% OF EMPLOYEES
+The number employees at Microsoft in this 
+location divided by the total number of 
+employees at Microsoft matching the 
+search criteria.
+YOUR %
+The number of your employees in this 
+location divided by the total number of your 
+employees with a standardized location.
+Locations with the most employees
+Greater Bengaluru Area
+8,525
+Greater Hyderabad Area
+8,147
+Greater Delhi Area
+3,205
+Fastest growing locations
+Guwahati, Assam, India
++33%
+Greater Agra Area
++27%
+Greater Gwalior Area
++24%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 4
+
+Location (100)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Singapore
+Country/Territory
+1,657
+5%
+189
+ 3%
+ 22%
+Greater Sydney Area
+1,546
+6%
+228
+ 3%
+ 43%
+Greater Tokyo Area
+1,518
+1%
+134
+ 3%
+ 7%
+Noida, Uttar Pradesh, India
+City
+1,095
+14%
+226
+ 2%
+ 0%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 5
+
+Company Report | Talent flow
+Created by Sherif (Soli) S
+How has this workforce trended over time?
+This module summarizes the number of employees at this company over the past year.
+EMPLOYEES
+The number of professionals with an active 
+position at this company listed on their 
+LinkedIn profile.
+6 MONTH GROWTH
+The percentage change in the number of 
+professionals at this company compared to 
+6 months ago.
+1 YEAR GROWTH
+The percentage change in the number of 
+professionals at this company compared to 
+one year ago.
+52,431
+ Employees
+ 
+2%
+6m growth
+ 
+4%
+1y growth
+FUNCTIONS WITH MOST EMPLOYEES
+Engineering
+20,941
+Information Technology
+6,662
+Sales
+4,092
+ FASTEST GROWING FUNCTIONS
+Real Estate
+27%
+Human Resources
+13%
+Purchasing
+12%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 6
+
+Company Report | Talent flow
+Created by Sherif (Soli) S
+How have hires and departures trended over time?
+This module summarizes the employee hires and departures for this company over the past year.
+HIRES
+The number of professionals who joined 
+this company based on the position start 
+date listed on their LinkedIn profile.
+DEPARTURES
+The number of professionals who departed 
+from this company based on the position 
+end date listed on their LinkedIn profile.
+NET CHANGE
+The difference between the number of hires 
+and departures at this company.
+5,982
+ Departures
+ 
+8,280
+ Hires
+ 
++2,298
+Net change
+COMPANIES WITH THE MOST HIRES
+Amazon
+189
+Amazon Web Services (AWS)
+140
+Intel Corporation
+125
+ COMPANIES WITH THE MOST DEPARTURES
+Google
+242
+Salesforce
+133
+Amazon
+43
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 7
+
+Company Report | Talent flow
+Created by Sherif (Soli) S
+From what companies is Microsoft winning and losing talent?
+This module summarizes the companies from which Microsoft has hired and lost talent from over the past 12 months.
+Company (100)
+Departures
+Hires
+Ratio
+Net change
+Google
+229  
+ 111
+-2.1
+-118
+Amazon
+42  
+ 182
++4.3
++140
+Salesforce
+114  
+ 53
+-2.2
+-61
+Amazon Web Services (AWS)
+26  
+ 136
++5.2
++110
+Oracle
+40  
+ 94
++2.4
++54
+Intel Corporation
+5  
+ 109
++21.8
++104
+Qualcomm
+5  
+ 75
++15
++70
+VMware
+0  
+ 76
++76
++76
+Adobe
+25  
+ 47
++1.9
++22
+IBM
+11  
+ 46
++4.2
++35
+COMPANY
+Company is determined by the current 
+active position(s) a member has listed on 
+their LinkedIn profile.
+DEPARTURES
+The number of professionals who left 
+Microsoft to join this company. A departure 
+is identified when a professional lists an end 
+date on the position at their previous 
+company (on their LinkedIn profile) and a 
+start date for a position at this company.
+HIRES
+The number of professionals who left their 
+previous company to join Microsoft. A hire 
+is identified when a professional lists an end 
+date on the position at their previous 
+company (on their LinkedIn profile) and a 
+start date for a position at this company.
+RATIO
+A ratio comparing the number of hires by 
+Microsoft from this company to the number 
+of departures to this company. A positive 
+ratio indicates a net inflow of talent from 
+this company (i.e. Microsoft hired that 
+number of people for every departure), 
+while a negative ratio indicates a net 
+outflow of talent.
+NET CHANGE
+The difference between the number of 
+professionals hired or lost between 
+Microsoft and this company in the past 
+year.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 8
+
+Company Report | Talent flow
+Created by Sherif (Soli) S
+Where has Microsoft won and lost talent over the last 12 
+months?
+This module summarizes locations where this company has hired and lost talent over the past year. A member's location 
+is determined by the location the member has selected on their LinkedIn profile. The top 20 locations based on hires and 
+departures volume are displayed on the map.
+Location (118)
+Departures
+Hires
+Ratio
+Net change
+Greater Bengaluru Area
+811  
+ 1600
++2
++789
+Greater Hyderabad Area
+581  
+ 973
++1.7
++392
+Greater Delhi Area
+401  
+ 628
++1.6
++227
+Pakistan
+317  
+ 295
+-1.1
+-22
+Mumbai Metropolitan Region
+171  
+ 232
++1.4
++61
+Greater Sydney Area
+134  
+ 219
++1.6
++85
+Noida, Uttar Pradesh, India
+82  
+ 214
++2.6
++132
+LOCATION
+A member's location is determined by the 
+location the member has selected on their 
+LinkedIn profile.
+DEPARTURES
+The number of professionals in this location 
+that departed Microsoft in the past year. A 
+departure is identified when a professional 
+lists an end date on the position at their 
+previous company (on their LinkedIn 
+profile) and a start date for a position at this 
+company.
+HIRES
+The number of professionals who were 
+hired by Microsoft in this location in the 
+past year. A hire is identified when a 
+professional lists an end date on the 
+position at their previous company (on their 
+LinkedIn profile) and a start date for a 
+position at this company.
+RATIO
+A ratio comparing the number of 
+professionals hired or lost by Microsoft in 
+this location in the past year. Net gains are 
+expressed as positive ratios, while net 
+losses are expressed as negative ratios.
+NET CHANGE
+The difference between the number of hire 
+and departures for Microsoft in this 
+location.
+Net winning talent in
+Greater Bengaluru Area
+789
+Greater Hyderabad Area
+392
+Greater Delhi Area
+227
+Net losing talent in
+Pakistan
+-22
+Greater Chennai Area
+-19
+Jakarta Metropolitan Area
+-18
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 9
+
+Location (118)
+Departures
+Hires
+Ratio
+Net change
+Singapore
+107  
+ 180
++1.7
++73
+Greater Chennai Area
+140  
+ 121
+-1.2
+-19
+Pune/Pimpri-Chinchwad Area
+137  
+ 123
+-1.1
+-14
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 10
+
+Company Report | Talent flow
+Created by Sherif (Soli) S
+From what industries has Microsoft won and lost talent from 
+over the last 12 months?
+This module summarizes the industries from which Microsoft has hired and lost talent over the past year. A member's 
+industry is determined by the industry the member has selected on their LinkedIn profile.
+Industry (117)
+Departures
+Hires
+Ratio
+Net change
+Software Development
+924  
+ 1365
++1.5
++441
+IT Services and IT Consulting
+326  
+ 729
++2.2
++403
+Technology, Information and Media
+95  
+ 210
++2.2
++115
+IT System Design Services
+65  
+ 166
++2.6
++101
+Semiconductor Manufacturing
+19  
+ 196
++10.3
++177
+Telecommunications
+47  
+ 161
++3.4
++114
+Higher Education
+56  
+ 109
++1.9
++53
+Business Consulting and Services
+55  
+ 104
++1.9
++49
+Financial Services
+48  
+ 109
++2.3
++61
+Computer and Network Security
+53  
+ 78
++1.5
++25
+INDUSTRY
+A member's industry is determined by the 
+industry the member has selected on their 
+LinkedIn profile.
+DEPARTURES
+The number of departures from Microsoft 
+in the past year that joined a company in 
+this industry.
+HIRES
+The number of hires to Microsoft in the past 
+year from a company in this industry.
+RATIO
+A ratio comparing the number of 
+professionals hired or lost by Microsoft in 
+this location. Net gains are expressed as 
+positive ratios, while net losses are 
+expressed as negative ratios.
+NET CHANGE
+The difference between the number of 
+Microsoft hires from and departures to this 
+industry in the past year.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 11
+
+Company Report | Titles
+Created by Sherif (Soli) S
+How tenured is this workforce?
+This module summarizes the tenure distribution of the current employees at this company.
+COMPANY TENURE
+The median tenure of the current 
+employees at this company. A professional's 
+tenure is determined by the start date of 
+the earliest position at this company listed 
+on their LinkedIn profile.
+YOUR COMPANY TENURE
+The median tenure of the current 
+employees at your company. A 
+professional's tenure is determined by the 
+start date of the earliest position at this 
+company listed on their LinkedIn profile.
+3.6 years
+ Microsoft
+ 
+1.8 years
+  You
+High tenured functions
+Customer Success and Support
+5.7 yrs
+Business Development
+5.5 yrs
+Program and Project Management
+5.5 yrs
+ Low tenured functions
+Education
+1.8 yrs
+Community and Social Services
+2.9 yrs
+Healthcare Services
+3.1 yrs
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 12
+
+Company Report | Titles
+Created by Sherif (Soli) S
+How experienced is this workforce?
+This module summarizes the distribution of years of experience for current employees at this company.
+COMPANY EXPERIENCE
+The median years of experience of current 
+employees at this company. A professional's 
+years of experience is determined by the 
+total months spent working, aggregated 
+from all positions they have listed on 
+LinkedIn. (Displayed in years with 1 decimal 
+point - e.g. 3.4 years)
+YOUR COMPANY EXPERIENCE
+The median years of experience of current 
+employees at your company. A 
+professional's years of experience is 
+determined by the total months spent 
+working, aggregated from all positions they 
+have listed on LinkedIn. (Displayed in years 
+with 1 decimal point, e.g. 3.4 years)
+11 years
+ Microsoft
+ 
+14.6 years
+  You
+High experienced functions
+Military and Protective Services
+19.3 yrs
+Real Estate
+18.8 yrs
+Purchasing
+18.2 yrs
+ Low experienced functions
+Education
+3.3 yrs
+Administrative
+6 yrs
+Research
+9.1 yrs
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 13
+
+Company Report | Skill inventory
+Created by Sherif (Soli) S
+What skills does this workforce have?
+This module summarizes the most common and fastest skills at Microsoft and how this compares to your own company.
+Skills (100)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Azure SQL
+14,894
+2%
+1,773
+ 28%
+ 2%
+Microsoft 365
+13,007
+-1%
+1,267
+ 25%
+ 3%
+Microsoft Azure Machine Learning
+12,981
+2%
+1,729
+ 25%
+ 1%
+Microsoft Servers
+12,886
+1%
+1,357
+ 25%
+ 3%
+Azure DevOps Services
+12,885
+3%
+1,782
+ 25%
+ 2%
+Algorithms
+11,699
+11%
+2,561
+ 22%
+ 1%
+C++
+11,543
+9%
+2,185
+ 22%
+ 1%
+Data Structures
+11,535
+12%
+2,578
+ 22%
+ 1%
+Mail Servers
+11,164
+2%
+1,193
+ 21%
+ 3%
+Software Packaging
+10,969
+4%
+1,347
+ 21%
+ 4%
+SKILLS
+A professional's skills are determined by the 
+skills listed in the skills section of their 
+LinkedIn profile.
+EMPLOYEES
+The number of professionals with an active 
+position at Microsoft listed on their LinkedIn 
+profile.
+1Y HIRES
+The number of professionals with a position 
+start date at Microsoft within the past 12 
+months.
+1Y GROWTH
+The percentage change in number of 
+employees with this skill compared to the 
+number of employees who had this skill one 
+year ago. Growth rates are not provided if 
+there were no employees with this skill in 
+the prior year.
+% OF EMPLOYEES
+The number employees at Microsoft with 
+this skill divided by the total number of 
+employees at Microsoft matching the 
+search criteria.
+YOUR %
+The number of your employees with this 
+skill divided by the total number of your 
+employees matching the search criteria.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 14
+
+Company Report | Attrition
+Created by Sherif (Soli) S
+What is attrition by function?
+This module summarizes the attrition rate by function for Microsoft.
+Function (26)
+Attrition 
+Your attrition
+% of employees
+Engineering
+ 9%
+ 11%
+40%
+Information Technology
+ 11%
+ 3%
+13%
+Sales
+ 10%
+ --
+8%
+Program and Project Management
+ 6%
+ 15%
+6%
+Administrative
+ 26%
+ --
+3%
+Business Development
+ 11%
+ 4%
+3%
+Operations
+ 10%
+ 5%
+3%
+Product Management
+ 8%
+ --
+3%
+Arts and Design
+ 12%
+ --
+2%
+Consulting
+ 8%
+ --
+2%
+FUNCTION
+Function is based on the standardized title 
+listed on a member's profile prior to 
+departing Microsoft. We convert the title a 
+member enters into one of approximately 
+25,000 standardized titles on LinkedIn, then 
+map that title to one of 26 standardized 
+functions.
+ATTRITION
+The number Microsoft employees in this 
+function divided by the total number of 
+employees at Microsoft with a standardized 
+function.
+YOUR ATTRITION
+The number of professionals within this 
+function who departed your company in the 
+past 12 months divided by the average 
+number of your employees within this 
+function during this period.
+% OF EMPLOYEES
+Function is based on the standardized title 
+listed on a member's profile prior to 
+departing Microsoft. We convert the title a 
+member enters into one of approximately 
+25,000 standardized titles on LinkedIn, then 
+map that title to one of 26 standardized 
+functions.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 15
+
+Company Report | Attrition
+Created by Sherif (Soli) S
+What is attrition by location?
+This module summarizes the attrition rate by location for Microsoft.
+Location (100)
+Attrition 
+Your attrition
+% of employees
+Greater Bengaluru Area
+ 11%
+ --
+16%
+Greater Hyderabad Area
+ 8%
+ --
+16%
+Greater Delhi Area
+ 13%
+ --
+6%
+Beijing, China
+City
+ 2%
+ --
+5%
+Shanghai, China
+City
+ 3%
+ --
+3%
+Pakistan
+Country/Territory
+ 18%
+ --
+3%
+Singapore
+Country/Territory
+ 7%
+ 3%
+3%
+Greater Sydney Area
+ 10%
+ 7%
+3%
+LOCATION
+A member's location is determined by the 
+location the member has selected on their 
+LinkedIn profile.
+ATTRITION
+The number of professionals within this 
+location who departed Microsoft in the past 
+12 months divided by the average number 
+of employees within this location during this 
+period. A professional is considered to have 
+departed their previous company if they 
+have added a position with a new company 
+on their LinkedIn profile and provided an 
+end date for the position at their previous 
+company.
+YOUR ATTRITION
+The number of professionals in this location 
+who departed your company in the past 12 
+months divided by the average number of 
+your employees in this location during this 
+period.
+% OF EMPLOYEES
+The number of employees at Microsoft in 
+this location divided by the total number of 
+employees at Microsoft with a location 
+selected on their LinkedIn profile.
+High attrition locations
+Metro Davao
+91%
+Greater Bandung
+71%
+Greater Madurai Area
+45%
+Low attrition locations
+Chongqing, China
+0%
+Guangxi Zhuang, China
+0%
+Hunan, China
+0%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 16
+
+Location (100)
+Attrition 
+Your attrition
+% of employees
+Greater Tokyo Area
+ 8%
+ 4%
+3%
+Noida, Uttar Pradesh, India
+City
+ 8%
+ --
+2%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 17
+
+Company Report | Education
+Created by Sherif (Soli) S
+What schools is Microsoft hiring talent from?
+This module summarizes the most common schools attended by employees at Microsoft.
+Schools (100)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Birla Institute of Technology and Science, 
+Pilani
+851
+8%
+130
+ 2%
+ 0%
+Kendriya Vidyalaya
+533
+5%
+84
+ 1%
+ 0%
+Savitribai Phule Pune University
+390
+-3%
+44
+ 1%
+ 0%
+Visvesvaraya Technological University
+360
+7%
+59
+ 1%
+ 0%
+Vellore Institute of Technology
+354
+6%
+62
+ 1%
+ 0%
+Indian School of Business
+350
+2%
+36
+ 1%
+ 0%
+Delhi University
+348
+3%
+55
+ 1%
+ 0%
+Shanghai Jiao Tong University
+348
+-3%
+5
+ 1%
+ 0%
+Indian Institute of Technology, Delhi
+346
+8%
+68
+ 1%
+ 0%
+Indian Institute of Technology, Bombay
+345
+6%
+59
+ 1%
+ 0%
+SCHOOLS
+The schools a professional has attended are 
+listed in the education section of their 
+LinkedIn profile.
+EMPLOYEES
+The number of professionals with an active 
+position at Microsoft listed on their LinkedIn 
+profile.
+1Y HIRES
+The number of professionals with a position 
+start date at Microsoft within the past 12 
+months.
+1Y GROWTH
+The percentage change in number of 
+employees from this school compared to 
+the number of employees from this school 
+one year ago. Growth rates are not 
+provided if there were no employees from 
+this school in the prior year.
+% OF EMPLOYEES
+The number of employees at Microsoft who 
+attended this school divided by the total 
+number of employees at Microsoft who 
+have listed a standardized school on their 
+profile.
+YOUR %
+The number of your employees who 
+attended this school divided by the total 
+number of your employees who have listed 
+a standardized school on their profile.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 18
+
+Company Report | Education
+Created by Sherif (Soli) S
+What degrees does this talent have?
+This module summarizes the degrees attained by employees at Microsoft.
+Microsoft
+Industry
+Your company
+Master of Business Administration
+12%
+9%
+13%
+Master's Degree
+30%
+24%
+29%
+Associate's Degree
+1%
+1%
+2%
+Bachelor's Degree
+56%
+64%
+55%
+Doctor of Philosophy
+2%
+1%
+1%
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 19
+
+Company Report | Education
+Created by Sherif (Soli) S
+What are the fields of study for this talent?
+This module summarizes the most common fields of study for these professionals.
+Fields of study (99)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Computer Science
+11,170
+6%
+1,743
+ 21%
+ 1%
+Computational Science
+9,959
+6%
+1,602
+ 19%
+ 1%
+Information Technology
+4,092
+5%
+636
+ 8%
+ 2%
+Computer Engineering
+3,562
+9%
+670
+ 7%
+ 0%
+Electrical, Electronics and Communications 
+Engineering
+3,135
+11%
+574
+ 6%
+ 1%
+Electrical and Electronics Engineering
+2,241
+6%
+363
+ 4%
+ 10%
+Business Administration and Management, 
+General
+1,958
+0%
+248
+ 4%
+ 4%
+Computer Engineering 
+Technologies/Technicians
+1,564
+7%
+265
+ 3%
+ 1%
+Mathematics
+1,532
+5%
+256
+ 3%
+ 1%
+Physical Sciences
+1,494
+9%
+282
+ 3%
+ 1%
+FIELDS OF STUDY
+The field(s) of study a member has listed in 
+the education section of their LinkedIn 
+profile.
+EMPLOYEES
+The number of professionals with an active 
+position at Microsoft listed on their LinkedIn 
+profile.
+1Y HIRES
+The number of professionals with a position 
+start date at Microsoft within the past 12 
+months.
+1Y GROWTH
+The percentage change in number of 
+employees with this field of study compared 
+to the number of employees who had this 
+field of study one year ago. Growth rates 
+are not provided if there were no 
+employees with this field of study in the 
+prior year.
+% OF EMPLOYEES
+The number of employees at Microsoft with 
+this field of study divided by the total 
+number of employees at Microsoft who 
+have listed a field of study on their profile.
+YOUR %
+The number of your employees with this 
+field of study divided by the total number of 
+your employees who have listed a field of 
+study on their profile.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 20
+
+Company Report | Profiles
+Created by Sherif (Soli) S
+Sample Profiles
+This module displays sample profiles for professionals.
+Amrita Thapar  2nd
+#TheMicrosoftAITourAsia | B2B Marketing & Tech Leader | Chief Marketing Officer | Communications Leader | Content Marketer
+Greater Delhi Area
+Current
+Past
+Vishwa Kumbalimutt  3rd
+Vice President of Engineering and Product Management, Microsoft
+Bengaluru, Karnataka, India
+Current
+Past
+Jaspal Singh  2nd
+Director Industry Solutions @ Microsoft
+Gurgaon, Haryana, India
+Current
+Past
+Regional Marketing Director at Microsoft
+July 2023 - Present
+Chief Marketing Officer, Microsoft India at Microsoft
+January 2022 - October 2023 (1 yr 9 mos)
+India Communications Lead at Amazon Web Services (AWS)
+August 2020 - December 2021 (1 yr 4 mos)
+Vice President Corporate Communications & Content Marketing at Genpact
+January 2018 - July 2020 (2 yrs 6 mos)
+Head of Content Marketing at Genpact
+December 2012 - January 2018 (5 yrs 1 mo)
+Director, Business Development (NGEN, A Genpact & NDTV JV) at Genpact (NGEN, a NDTV JV)
+March 2007 - December 2012 (5 yrs 9 mos)
+Senior Manager Corporate Strategy at Bennett Coleman and Co. Ltd. (Times Group)
+January 2004 - February 2007 (3 yrs 1 mo)
+Assistant Producer at NDTV
+January 1998 - January 2004 (6 yrs)
+Vice President of Engineering at Microsoft
+September 2024 - Present
+Partner Director of Engineering and Product Management at Microsoft
+November 2022 - September 2024 (1 yr 10 mos)
+General Manager at Microsoft
+March 2017 - November 2022 (5 yrs 8 mos)
+Principal Group Engineering Manager at Microsoft
+July 2011 - March 2017 (5 yrs 8 mos)
+Principal Program Manager Lead at Microsoft
+April 2008 - June 2011 (3 yrs 2 mos)
+Lead Program Manager at Microsoft
+April 1999 - March 2008 (8 yrs 11 mos)
+Software Engineer at Ericsson Inc
+December 1995 - April 1999 (3 yrs 4 mos)
+Software Engineer at Siemens Communication Software
+June 1994 - December 1995 (1 yr 6 mos)
+Software Engineer at Ramsoft Technologies
+January 1993 - May 1994 (1 yr 4 mos)
+Director - Industry Solutions at Microsoft
+August 2022 - Present
+Solution Area Specialist - Industry Solutions at Microsoft
+July 2020 - August 2022 (2 yrs 1 mo)
+Sr. Solution Specialist - Azure Cloud ( Data & AI ) at Microsoft
+August 2018 - June 2020 (1 yr 10 mos)
+Client Partner at ServiceNow
+December 2015 - August 2018 (2 yrs 8 mos)
+Business Relationship Manager - Energy & Resources at Tata Consultancy Services
+January 2014 - December 2015 (1 yr 11 mos)
+Regional Head - iON Cloud Services - Strategic Initiatives at Tata Consultancy Services
+April 2012 - December 2013 (1 yr 8 mos)
+Account Executive( G500 ) -- Global Accounts at Dell India Pvt Limited
+March 2011 - April 2012 (1 yr 1 mo)
+Chief Executive - Operations at SparX Technologies Pvt Limited
+December 1999 - March 2011 (11 yrs 3 mos)
+Free Lance / Start up at Infotech Associates
+January 1993 - December 1999 (6 yrs 11 mos)
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 21
+
+Samuel Soto  2nd
+Cyber Security Surgeon     at Microsoft | Author | Incident Response | Breach Containment | Security Operations Modernization | AI and ML Security | SecDevOps | OT | Trusted Advisor | Veteran
+Greater Tokyo Area
+Current
+Past
+Anurag Kumar  3rd
+Head of Engineering, M365 Copilot for Employee Experience and Productivity Products
+Bengaluru, Karnataka, India
+Current
+Past
+Sandeep Chadda  2nd
+Principal Product Manager @ Microsoft | Founder #crawlwalkrun | Blogger | Professional Speaker
+Hyderabad, Telangana, India
+Current
+Past
+Principal Cyber Security Consultant, Microsoft Security CyberOps Resilience at Microsoft
+November 2023 - Present
+Principal Cyber Security Consultant, Global Compromise Recovery Security Practice at Microsoft
+September 2022 - November 2023 (1 yr 2 mos)
+Senior Cyber Security Consultant, Global Compromise Recovery Security Practice at Microsoft
+September 2020 - August 2022 (1 yr 11 mos)
+Global Cybersecurity Architect / Head of Cloud Cyber Security at Nissan Motor Corporation
+September 2019 - August 2020 (11 mos)
+Head of Cyber Security at NN
+February 2018 - June 2019 (1 yr 4 mos)
+Cybersecurity Architect / Compliance Manager at US Army Corps of Engineers
+August 2016 - February 2018 (1 yr 6 mos)
+Security Operations Center Manager at U.S. Naval Computer and Telecommunication Station, Far East (NCTS Far East)
+May 2014 - August 2016 (2 yrs 3 mos)
+IT Infrastructure and Service Delivery Manager at United States Patent and Trademark Office
+August 2012 - April 2014 (1 yr 8 mos)
+Configuration and Policy Compliance Manager at U.S. Department of State
+July 2011 - August 2012 (1 yr 1 mo)
+Senior Virtual Infrastructure Administrator at United States Department of Defense
+February 2010 - July 2011 (1 yr 5 mos)
+Security Operations Center Analyst at C4 Planning Solutions
+January 2009 - January 2010 (1 yr)
+Enterprise Application Software Engineer at C4 Planning Solutions
+November 2007 - December 2008 (1 yr 1 mo)
+IT Operations Manager at AWCI Corp
+April 2006 - October 2007 (1 yr 6 mos)
+Founder at IT Next Level
+September 2005 - October 2007 (2 yrs 1 mo)
+Head of Engineering at Microsoft
+December 2022 - Present
+Head of Engineering, Agri-Food and Energy Industry, Azure Data Manager Platform at Microsoft
+May 2020 - December 2022 (2 yrs 7 mos)
+Head Of Engineering, WW Deals Platform, Consumer Engagement at Amazon
+February 2019 - May 2020 (1 yr 3 mos)
+Head Of Engineering, Native Ads and WW Ad Quality and Compliance, Amazon Advertising at Amazon
+January 2017 - February 2019 (2 yrs 1 mo)
+Principal Engineering Manager at Microsoft Corporation
+August 2010 - December 2016 (6 yrs 4 mos)
+Senior Engineering Manager at Yahoo
+January 2007 - August 2010 (3 yrs 7 mos)
+Architect at Intelliworks
+April 2006 - January 2007 (9 mos)
+Dev Lead at Talisma Corp
+September 2001 - April 2006 (4 yrs 7 mos)
+Lead Engineer at Solutions Inc.
+March 2000 - September 2001 (1 yr 6 mos)
+Software Engg. at Nexgenix Inc.
+June 1998 - January 2000 (1 yr 7 mos)
+Product Manager at Microsoft
+February 2024 - Present
+Product Manager at Microsoft
+February 2022 - February 2024 (2 yrs)
+Product Manager at Microsoft
+September 2021 - February 2022 (5 mos)
+Product Manager at Microsoft
+June 2020 - August 2021 (1 yr 2 mos)
+Product Manager at Microsoft
+September 2016 - June 2020 (3 yrs 9 mos)
+Program Manager at Microsoft
+May 2015 - September 2016 (1 yr 4 mos)
+PGPX - Placement Committee Member (2014/15) at Indian Institute of Management, Ahmedabad
+June 2014 - June 2015 (1 yr)
+Associate Manager at Avanade
+November 2012 - April 2014 (1 yr 5 mos)
+Technology Architect at Infosys
+May 2011 - December 2012 (1 yr 7 mos)
+Technology Consultant at Infosys Technologies Ltd
+January 2010 - May 2011 (1 yr 4 mos)
+Project Manager at Infosys
+February 2009 - January 2010 (11 mos)
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 22
+
+Alipta Ballav  2nd
+Sr. Design Manager @ Microsoft | Co-founder Design Shots.ai | Building UX for Generative AI
+Bengaluru, Karnataka, India
+Current
+Past
+Rahul DHAR PMP®  2nd
+Country Director - Data Centers @ Microsoft | Data Center Infrastructure, Cloud Services
+New Delhi, Delhi, India
+Current
+Past
+Matt Hendra  2nd
+GM Commercial Solution Area, Microsoft Asia Pacific | Executive Leadership | Strategic Vision & Execution | Board Expertise | Change Leader | Expert Coach
+Singapore
+Current
+Past
+Shaili Agrawal  2nd
+Director Customer Success Account Management
+Singapore, Singapore
+Associate Consultant at Infosys
+June 2007 - February 2009 (1 yr 8 mos)
+Technical Lead at Infosys
+November 2004 - June 2007 (2 yrs 7 mos)
+Software Engineer at Infosys
+August 2004 - November 2004 (3 mos)
+Software Engineer at Infosys
+December 2003 - August 2004 (8 mos)
+Sr. Design Manager at Microsoft
+February 2022 - Present
+Co-Founder (Non-Profit) at Design Shots
+November 2020 - September 2024 (3 yrs 10 mos)
+Sr. Manager User Experience (Head of Design - India) at Cerner Corporation
+August 2017 - February 2022 (4 yrs 6 mos)
+Sr.User Experience Consultant at HARMAN International
+March 2015 - August 2017 (2 yrs 5 mos)
+UX Researcher/ collaborator (Non - profit) at Stanford HCI Group
+January 2016 - January 2017 (1 yr)
+Manger/Principal UX at Wipro Technologies
+August 2007 - March 2015 (7 yrs 7 mos)
+IT Consultant at LogicaCMG
+November 2006 - July 2007 (8 mos)
+Sr. Web Developer at Diadem Technologies Pvt. Ltd.
+January 2003 - April 2005 (2 yrs 3 mos)
+Graphic Designer at Net Perfect Pvt Ltd
+June 1999 - August 2002 (3 yrs 2 mos)
+Multimedia Intern at Digital Soup
+July 1998 - September 1998 (2 mos)
+Country Director - Data Centers at Microsoft
+April 2014 - Present
+Regional Head - Northern India for Data Centers at Tata Communications
+January 2009 - March 2014 (5 yrs 2 mos)
+Operations Lead - Data Center Services at Colt Data Centre Services
+September 2005 - January 2009 (3 yrs 4 mos)
+Manager - Network Services at Vodafone Idea Limited
+March 2004 - September 2005 (1 yr 6 mos)
+O&M Engineer at airtel
+May 2002 - March 2004 (1 yr 10 mos)
+Sr. Asstt. Engineer - O&M at Tata Chemicals
+November 1999 - May 2002 (2 yrs 6 mos)
+General Manager, Commercial Solution Areas | Mentor & Business Leader at Microsoft
+October 2019 - Present
+Vice President & International Managing Director at Covetrus
+December 2016 - September 2019 (2 yrs 9 mos)
+General Manager, Australia & New Zealand at Insight
+2012 - 2016
+National Manager, Managed Services at Data #3
+2007 - 2012
+National Outsourcing & Contract Sales & Strategy at Data#3
+2005 - 2007
+Senior Business Development Manager at Finite
+2003 - 2005
+Principal Consultant at IT Executive
+2001 - 2003
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 23
+
+Current
+Past
+Hazlan H.  3rd
+Ex nihilo nihil fit
+Jakarta, Indonesia
+Current
+Past
+Manish Dass  3rd
+Principal Engineering Manager at Microsoft | Ex-Samsung | IIT-BHU.
+Hyderabad, Telangana, India
+Current
+Past
+Bharat Narang  2nd
+@Microsoft | Building Tech org for Cloud Supply Chain Provisioning | Carbon Neutral | Next generation Cloud supply ecosystem
+Hyderabad, Telangana, India
+Current
+Past
+Director Customer Success Account Management at Microsoft
+October 2024 - Present
+Regional lead for Global Delivery (India, ASEAN, ANZ) at Microsoft
+July 2023 - September 2024 (1 yr 2 mos)
+ASEAN Lead for Modern Work Customer success at Microsoft
+January 2022 - June 2023 (1 yr 5 mos)
+Senior Customer Success Manager for Modern Workplace at Microsoft
+September 2020 - June 2022 (1 yr 9 mos)
+Employee Enablement Lead for APAC at Microsoft
+November 2016 - August 2020 (3 yrs 9 mos)
+Asia Regional Lead, Customer Relations for Dynamics at Microsoft
+August 2014 - October 2016 (2 yrs 2 mos)
+Customer Relations Manager - Microsoft Dynamics at Microsoft
+August 2013 - July 2014 (11 mos)
+Client Engagement Manager at Cognizant
+January 2010 - June 2012 (2 yrs 5 mos)
+Senior Associate at Cognizant
+July 2007 - December 2009 (2 yrs 5 mos)
+Information Technology Associate at Cognizant
+July 2005 - June 2007 (1 yr 11 mos)
+Information Technology Analyst at Cognizant
+September 2003 - June 2005 (1 yr 9 mos)
+Senior Integration Manager at Microsoft
+May 2022 - Present
+Director at AKSA Resources Pte Ltd
+December 2020 - April 2022 (1 yr 4 mos)
+Director at PT Revorma Indotama Tigaraksa
+October 2019 - April 2022 (2 yrs 6 mos)
+Project Director at Archetype Group
+November 2018 - December 2020 (2 yrs 1 mo)
+General Manager at Bounty Segar Indonesia
+December 2015 - August 2018 (2 yrs 8 mos)
+Project Consultant at The SM Store
+January 2014 - January 2017 (3 yrs)
+Senior Design Manager at GEMS Education (East Asia) Pte Ltd
+April 2013 - December 2013 (8 mos)
+Regional Project Manager (Construction, Building Services and Equipment) at METRO/MAKRO Cash and Carry
+April 2010 - March 2013 (2 yrs 11 mos)
+Director (Traditional Dance & Music) at Sanggar Ayudha
+May 2009 - October 2012 (3 yrs 5 mos)
+General Manager (Property & Projects) at Dairy Farm Group
+April 2007 - March 2010 (2 yrs 11 mos)
+Project Manager (Operations) at Azizia Panda United Inc
+September 2005 - March 2007 (1 yr 6 mos)
+Project Manager (Property & Projects) at Dairy Farm Group
+September 2004 - August 2005 (11 mos)
+Project Engineer (Property & Projects) at Cold Storage Singapore (1983) Pte Ltd
+March 2003 - August 2004 (1 yr 5 mos)
+Project Architect at Deenn Engineering Pte Ltd
+January 2002 - February 2003 (1 yr 1 mo)
+Assistant Architect at Akitek Tenggara II
+May 1997 - December 2001 (4 yrs 7 mos)
+Principal Software Engineering Manager at Microsoft
+March 2020 - Present
+Sr. SWE / Engineering Manager at Microsoft
+May 2019 - February 2020 (9 mos)
+Associate Architect / Sr Chief Engineer at Samsung Electronics
+March 2015 - April 2019 (4 yrs 1 mo)
+SE/LE/Technical Lead/Chief Engineer at Samsung Electronics
+July 2004 - March 2015 (10 yrs 8 mos)
+Principal Software Engineering Manager at Microsoft
+July 2023 - Present
+Director Engineering at Turvo Inc.
+January 2021 - June 2021 (5 mos)
+Group Engineering Manager at Turvo Inc.
+December 2018 - December 2020 (2 yrs)
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 24
+
+Sachin Ghodke  2nd
+Senior Design Manager at Microsoft
+Bengaluru, Karnataka, India
+Current
+Past
+Mitalee Mulpuru  2nd
+Unlearner
+Hyderabad, Telangana, India
+Current
+Past
+Anshul Saxena  3rd
+Principal Engineering Manager, Microsoft | Microsoft Azure AI Accelerator
+Bengaluru, Karnataka, India
+Current
+Amazon E-commerce – Last Mile technology - On-road Experience - at Amazon
+August 2016 - December 2018 (2 yrs 4 mos)
+Software Development Manager in WW Customer Returns at Amazon
+August 2015 - September 2016 (1 yr 1 mo)
+Director at Markit
+January 2013 - August 2015 (2 yrs 7 mos)
+Vice President at Markit
+June 2010 - December 2012 (2 yrs 6 mos)
+Manager Technology at Publicis Sapient
+August 2009 - June 2010 (10 mos)
+Manager Software Engineer at Impetus Infotech India Pvt. Ltd
+January 2008 - August 2009 (1 yr 7 mos)
+Lead Software Engineer at Impetus Infotech India Pvt. Ltd.
+February 2007 - December 2007 (10 mos)
+Sr. Software Engineer at Fidelity Investments
+March 2005 - February 2007 (1 yr 11 mos)
+Sr. Software Engineer at HCL Technologies
+September 2003 - February 2005 (1 yr 5 mos)
+Sr. Software Engineer at Xerox
+March 2001 - September 2004 (3 yrs 6 mos)
+Software Engineer at ASAP Solutions Group, LLC
+December 2000 - February 2001 (2 mos)
+Senior Design Manager at Microsoft
+December 2022 - Present
+Senior Designer at Microsoft
+July 2022 - December 2022 (5 mos)
+Senior Designer at Nutanix
+October 2020 - July 2022 (1 yr 9 mos)
+External Examiner for M.Des ‘User Interaction and Experience Design’ at School of Planning and Architecture, Bhopal
+May 2021 - May 2021
+Art Director UX Design at Philips
+October 2018 - October 2020 (2 yrs)
+UX Designer at Philips
+April 2015 - September 2018 (3 yrs 5 mos)
+Independent UX Consultant at -
+December 2014 - March 2015 (3 mos)
+Senior Lead Designer at SAMSUNG R&D INSTITUTE INDIA - BANGALORE PRIVATE LIMITED
+September 2014 - December 2014 (3 mos)
+User Experience Design Consultant at Mindtree Ltd.
+July 2013 - August 2014 (1 yr 1 mo)
+User Experience Design Specialist at Mindtree Ltd.
+January 2012 - June 2013 (1 yr 5 mos)
+User Experience Designer at Texity Systems Pvt. Ltd
+August 2009 - November 2011 (2 yrs 3 mos)
+'Research & Interaction Designer' during summer internship at Impelsys
+2008 - 2008
+Principal PM at Microsoft
+March 2024 - Present
+Principal PM at Microsoft
+November 2022 - February 2024 (1 yr 3 mos)
+Principal PM at Microsoft
+January 2021 - November 2022 (1 yr 10 mos)
+Investment Advisor at Montane Ventures
+May 2019 - February 2021 (1 yr 9 mos)
+Founder at khaata.in
+February 2018 - January 2021 (2 yrs 11 mos)
+Product Owner at Algorythma
+June 2017 - February 2018 (8 mos)
+Manager at IFCI
+June 2011 - June 2017 (6 yrs)
+Technical Associate at New Markets Venture Partners
+June 2008 - May 2009 (11 mos)
+Technical Associate at Tech Mahindra
+February 2005 - February 2007 (2 yrs)
+Research Assistant at M/s Linkwell Telesystems Pvt Ltd
+September 2004 - January 2005 (4 mos)
+Principal Engineering Manager at Microsoft
+March 2023 - Present
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 25
+
+Past
+John Downs  2nd
+Principal Software Engineer/Architect at Microsoft Patterns and Practices
+New Zealand
+Current
+Past
+Gouri Shankar Praharaj  3rd
+Director Solution Sales - Azure Infra
+Bengaluru, Karnataka, India
+Current
+Past
+Vaibhav Sharma  2nd
+Architect @ Microsoft | ISMS Lead Auditor | Product Management
+Hyderabad, Telangana, India
+Current
+Past
+Senior Manager, ASIC Dev Engineering at SanDisk
+2011 - 2023
+Entrepreneur at Startup
+2009 - 2011
+Lead Engineer at Samsung India Software Operations
+2006 - 2009
+Principal Software Engineer at Microsoft
+June 2024 - Present
+Principal Program Manager at Microsoft
+2023 - June 2024
+Principal Engineer at Microsoft
+2019 - 2023
+Managing Consultant at Kloud Solutions
+2016 - 2019
+Technical Lead and Architect at Altaine
+2015 - 2016
+Research Fellow, Microsoft Research Centre for Social Natural User Interfaces at The University of Melbourne
+2014 - 2015
+PhD Researcher at University of Melbourne
+2010 - 2014
+Research Assistant at University of Melbourne
+2010 - 2014
+Research Intern at Microsoft Research
+2013 - 2013
+MSc Student at University of Auckland
+2009 - 2010
+Contract Software Developer at Microsoft
+2006 - 2006
+Software Developer at CreditWorks Technologies Limited
+2003 - 2006
+Contract Software Developer at Microsoft
+2004 - 2004
+Director Solution Sales - Azure Infra at Microsoft at Microsoft
+June 2021 - Present
+Account Executive - Enterprise Commercial at Microsoft Corporation India Pvt Ltd
+July 2017 - May 2021 (3 yrs 10 mos)
+Account Executive - Corporate Accounts at Microsoft Corporation (India) Pvt Ltd
+December 2013 - June 2017 (3 yrs 6 mos)
+Named Account Manager at AVAYA India Pvt Ltd
+February 2011 - December 2013 (2 yrs 10 mos)
+Major Account Manager at HCL Comnet Ltd
+November 2008 - February 2011 (2 yrs 3 mos)
+Business Development Managr at Orange Business Services
+July 2007 - October 2008 (1 yr 3 mos)
+Sr Sales Executive at HCL Infinet Ltd
+February 2005 - June 2007 (2 yrs 4 mos)
+Architect at Microsoft
+June 2024 - Present
+Sr. Consultant - Dynamics 365 at Microsoft
+December 2016 - August 2024 (7 yrs 8 mos)
+Project Manager at Wipro
+April 2013 - December 2016 (3 yrs 8 mos)
+Project Lead at Wipro
+July 2012 - June 2013 (11 mos)
+Account Manager at Wipro
+July 2012 - December 2012 (5 mos)
+Management Consultant at Unique Identification Authority of India (UIDAI)
+May 2011 - July 2012 (1 yr 2 mos)
+Founder | President at Entrepreneurship Cell, ABV-IIITM, Gwalior
+April 2010 - April 2011 (1 yr)
+Software Developer at Megatech Overseas (I) Ltd
+May 2010 - July 2010 (2 mos)
+Software Developer at Synditech Solutions
+May 2009 - August 2009 (3 mos)
+Developer at Indian Institute of Management, Ahmedabad
+May 2009 - May 2009
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 26
+
+Abhimanyu Varma  2nd
+Engineering Leader at Microsoft (Azure), Ex-Visa, Ex-Deloitte
+Hyderabad, Telangana, India
+Current
+Past
+Kushal Ghosh  3rd
+Principal Engineering Manager at Microsoft
+Bengaluru, Karnataka, India
+Current
+Past
+Soumya Kanti Banerjee  3rd
+Technology Consulting Manager @ Microsoft | ISB MBA
+Hyderabad, Telangana, India
+Current
+Past
+Principal Software Engineering Manager at Microsoft
+June 2022 - Present
+Senior Software Engineering Manager at Microsoft
+September 2020 - May 2022 (1 yr 8 mos)
+Senior Software Engineer at Microsoft
+October 2019 - August 2020 (10 mos)
+Senior Software Engineer at Microsoft
+June 2017 - September 2019 (2 yrs 3 mos)
+Staff Software Engineer at Visa
+October 2016 - May 2017 (7 mos)
+Senior Software Engineer at Visa
+May 2015 - September 2016 (1 yr 4 mos)
+Consultant at Deloitte Consulting
+August 2012 - May 2015 (2 yrs 9 mos)
+Business Technology Analyst at Deloitte Consulting
+June 2010 - August 2012 (2 yrs 2 mos)
+Intern at Indian Institute of Management, Ahmedabad
+December 2008 - December 2008
+Intern at National Informatics Center
+May 2008 - July 2008 (2 mos)
+Principal Engineering Manager at Microsoft
+September 2023 - Present
+Senior Engineering Manager at Microsoft
+September 2020 - August 2023 (2 yrs 11 mos)
+Senior Software Engineer at Microsoft
+September 2018 - August 2020 (1 yr 11 mos)
+Senior Software Engineer at DigiCert, Inc.
+November 2017 - August 2018 (9 mos)
+Senior Software Engineer at Symantec
+August 2016 - October 2017 (1 yr 2 mos)
+Principal Software Engineer at Interra Systems
+July 2014 - August 2016 (2 yrs 1 mo)
+Senior Software Engineer at Interra Systems
+January 2012 - June 2014 (2 yrs 5 mos)
+Software Engineer at Interra Systems
+April 2011 - December 2011 (8 mos)
+Member of Technical Staff at Adobe
+February 2010 - March 2011 (1 yr 1 mo)
+Software Engineer at Novell
+July 2009 - December 2009 (5 mos)
+Internship at IBM
+May 2008 - July 2008 (2 mos)
+Technology Consulting Manager at Microsoft
+November 2018 - Present
+Senior Delivery Project Manager at Microsoft
+August 2017 - October 2018 (1 yr 2 mos)
+Delivery Project Manager at Microsoft
+May 2015 - August 2017 (2 yrs 3 mos)
+MBA Candidate at Indian School of Business
+April 2014 - April 2015 (1 yr)
+Intern at Microsoft
+June 2014 - December 2014 (6 mos)
+BI Manager, Senior BI Analyst, & Technology Lead at Cox Media / Communications
+March 2011 - February 2014 (2 yrs 11 mos)
+Consultant - CRM at Cognizant Technology Solutions
+December 2007 - February 2014 (6 yrs 2 mos)
+BI Onsite Lead at Novo Nordisk A/S
+October 2010 - February 2011 (4 mos)
+Senior BI Report Developer & Server Architect at Merck
+February 2010 - October 2010 (8 mos)
+Analytics & BI Lead at Pfizer
+December 2007 - March 2010 (2 yrs 3 mos)
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 27
+
+Amrita Agarwal  2nd
+Sr Technical Program Manager at Microsoft
+Bengaluru, Karnataka, India
+Current
+Past
+Tushar Singhal  3rd
+Product@Microsoft AI | FMS Delhi
+Bengaluru, Karnataka, India
+Current
+Past
+Manish Sharma  2nd
+Product Manager | Product Strategy | Foster Partner Eco System
+Gurgaon, Haryana, India
+Current
+Past
+Senior Technical Program Manager at Microsoft
+November 2024 - Present
+Technical Program Manager at Meta
+May 2022 - September 2024 (2 yrs 4 mos)
+Development Architect at SAP Labs India
+January 2020 - January 2022 (2 yrs)
+Scrum Master & Senior Developer at SAP Labs India
+June 2017 - December 2019 (2 yrs 6 mos)
+Senior Engineer at J.P. Morgan
+June 2016 - June 2017 (1 yr)
+Senior Member Technical Staff at Oracle
+July 2013 - June 2016 (2 yrs 11 mos)
+Engineer at Alcatel-Lucent
+December 2011 - July 2013 (1 yr 7 mos)
+Software Engineer at HCL Technologies
+December 2009 - November 2011 (1 yr 11 mos)
+Senior Product Manager at Microsoft
+August 2024 - Present
+Product Manager 2 at Microsoft
+June 2022 - October 2024 (2 yrs 4 mos)
+Program Manager at Microsoft
+June 2021 - May 2022 (11 mos)
+BOLD Summer Intern at Amazon
+April 2020 - June 2020 (2 mos)
+Assistant Manager at Maruti Suzuki India Limited
+June 2018 - May 2019 (11 mos)
+Assistant System Engineer at Tata Consultancy Services
+March 2017 - May 2018 (1 yr 2 mos)
+Summer Research Intern at Bhabha Atomic Research Centre
+June 2015 - August 2015 (2 mos)
+Summer Associate at Doubleloop Solutions
+June 2014 - July 2014 (1 mo)
+Principal Program Manager at Microsoft
+March 2022 - Present
+Sr. Program Manager at Microsoft
+September 2020 - March 2022 (1 yr 6 mos)
+Senior Software Engineer at Microsoft
+April 2019 - September 2020 (1 yr 5 mos)
+Sr. Technical Evangalist at Microsoft
+September 2014 - April 2019 (4 yrs 7 mos)
+Sr. Technical Architect at Netsmartz
+April 2013 - September 2014 (1 yr 5 mos)
+Senior Member Architect Group at Nagarro
+June 2011 - March 2013 (1 yr 9 mos)
+Solution Architect at ClickSoftware
+April 2009 - June 2011 (2 yrs 2 mos)
+Product Lead / Program Manager at Manchitra Services Pvt Ltd
+September 2005 - April 2009 (3 yrs 7 mos)
+Software Engineer at MKC Software Pvt. Ltd
+September 2003 - September 2005 (2 yrs)
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 28
+
+Company Report | Titles
+Created by Sherif (Soli) S
+How is this workforce distributed by title?
+This module summarizes the number of employees by title and how this has changed over time.
+Titles (100)
+Employees
+1y growth
+1y hires
+% of employees 
+Your %
+Software Engineer
+9,892
+8%
+1,932
+ 19%
+ 0%
+Senior Software Engineer
+3,632
+16%
+397
+ 7%
+ 0%
+Solutions Architect
+814
+-1%
+51
+ 2%
+ 0%
+Support Engineer
+750
+-7%
+64
+ 1%
+ 0%
+Manager
+747
+2%
+47
+ 1%
+ 0%
+Account Manager
+702
+6%
+120
+ 1%
+ 0%
+Engineering Manager
+693
+7%
+40
+ 1%
+ 1%
+Support Escalation Engineer
+667
+3%
+20
+ 1%
+ 0%
+Principal Software Engineer
+654
+22%
+79
+ 1%
+ 0%
+Software Engineering Manager
+631
+19%
+39
+ 1%
+ 0%
+TITLES
+The job title listed on the currently active 
+position of a member's LinkedIn profile. We 
+convert the title a member enters into one 
+of approximately 25,000 standardized titles 
+on LinkedIn.
+EMPLOYEES
+The number of professionals with an active 
+position at Microsoft listed on their LinkedIn 
+profile.
+1Y HIRES
+The number of professionals with a position 
+start date at Microsoft within the past 12 
+months.
+1Y GROWTH
+The percentage change in number of 
+employees with this title compared to the 
+number of employees with this title one 
+year ago. Growth rates are not provided if 
+there were no employees with this title in 
+the prior year.
+% OF EMPLOYEES
+The number of Microsoft employees with 
+this title divided by the total number of 
+employees at Microsoft matching this 
+search criteria.
+YOUR %
+The number of your employees with this 
+title divided by the total number of your 
+employees matching this search criteria.
+For internal distribution only. All use subject to LinkedIn Subscription Agreement and Service Terms
+T A L E N T  I N S I G H T S
+Page 29
