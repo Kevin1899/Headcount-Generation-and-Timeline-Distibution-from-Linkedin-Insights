@@ -63,7 +63,7 @@ Returns structured company profile as JSON:
 ### 🔹 Phase 2: Predict Headcount Timeline for a Role
 
 ```bash
-python main.py /path/to/Microsoft_APAC.pdf --role "AI Engineer" -v
+python main_location_aware.py /path/to/Microsoft_APAC.pdf --role "AI Engineer" --location "Beijing" -v
 ```
 
 Returns forecasted timeline:
