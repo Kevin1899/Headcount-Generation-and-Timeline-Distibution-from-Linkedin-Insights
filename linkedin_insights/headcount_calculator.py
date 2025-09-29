@@ -70,6 +70,32 @@ class HeadcountCalculator:
         
         return tokens
     
+    def verify_location(self, insights: dict, target_location: str) -> bool:
+        locations_data = insights.get("locations", [])
+        if not locations_data or not target_location:
+            return False
+
+        # Normalize spaces and lowercase
+        target_location = " ".join(str(target_location).lower().split())
+
+        for loc in locations_data:
+            location_name = loc.get("location", "")
+            if not location_name:
+                continue
+            location_name = " ".join(str(location_name).lower().split())
+
+            # Flexible matching
+            if (
+                target_location == location_name
+                or target_location in location_name
+                or location_name in target_location
+                or any(word in location_name for word in target_location.split() if len(word) > 2)
+                or any(word in target_location for word in location_name.split() if len(word) > 3)
+            ):
+                return True
+
+        return False
+    
 
     def determine_function_hint(self,insights:Dict,role:str,client=None)->str:
         prompt = """Step 1. Determine function_hint for the role.
@@ -144,22 +170,72 @@ class HeadcountCalculator:
                     })
 
         # --- Step 3: Construct prompt for AI ---
+
         prompt = f"""
-    You are an expert at matching job roles to skills.
+You are an expert at matching job roles to skills.
 
-    Role tokens: {json.dumps(role_tokens)}
+Role tokens: {json.dumps(role_tokens)}
 
-    Skills list: {json.dumps(skill_entries)}
+Skills list: {json.dumps(skill_entries)}
 
-    Rules:
-    1. Match each token to skills using exact match, whole-word match, or abbrev expansion ({json.dumps(self.abbrev_map)}).
-    2. Do NOT allow substring-only matches (e.g., "hr" in "sharepoint" is invalid).
-    3. Record each match as: (token, skill_name, employees, source, open_jobs)
-    4. After matching, select the best skill:
-    - highest employees count
-    - tie-breaker: top_skills > fastest_growing
-    5. Return JSON with two fields: "matches" (array of matched tokens & skills) and "matched_skill" (single chosen skill).
-    """
+Rules:
+1. Expand role tokens into full role phrases if they are abbreviations 
+   (see examples below: "ai" → "artificial intelligence", "ml" → "machine learning").
+2. Match each token / expanded phrase to skills using:
+   - exact match
+   - whole-word match
+   - semantic relevance (role context overlaps with skill name)
+3. Do NOT allow completely unrelated substring-only matches 
+   (e.g., "hr" in "sharepoint" is invalid).
+4. If no valid match exists, return no match for that token.
+5. Record each valid match as: (token, expanded_role, skill_name, employees, source, open_jobs).
+6. After matching:
+   - If there are no matches, return `"matched_skill": null`.
+   - Otherwise, select the best skill:
+       - highest employees count
+       - tie-breaker: top_skills > fastest_growing
+7. Return JSON with two fields:
+   - "matches" (array of matched tokens & skills)
+   - "matched_skill" (single chosen skill or null if none).
+
+### Few-shot abbreviation expansion examples:
+
+Example 1:
+Token: "ai"
+Expansion: "artificial intelligence"
+
+Example 2:
+Token: "ml"
+Expansion: "machine learning"
+
+Example 3:
+Token: "js"
+Expansion: "javascript"
+
+Example 4:
+Token: "py"
+Expansion: "python"
+
+Example 5:
+Token: "dev"
+Expansion: "development" or "developer"
+
+Example 6:
+Token: "ops"
+Expansion: "operations"
+
+Example 7:
+Token: "qa"
+Expansion: "quality assurance"
+
+Example 8:
+Token: "ui"
+Expansion: "user interface"
+
+Example 9:
+Token: "ux"
+Expansion: "user experience"
+"""
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -167,7 +243,7 @@ class HeadcountCalculator:
                 {"role": "system", "content": "You are a precise skill-matching assistant."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0
+            temperature=0.0
         )
 
         content = response.choices[0].message.content.strip()
@@ -199,8 +275,13 @@ class HeadcountCalculator:
 
         # --- Step 4: Compute function hint & frozen function share (fs) ---
         function_hint = self.determine_function_hint(insights=insights, role=role, client=client)
-        fs = self.extract_function_share(insights_json=insights,function_hint=function_hint)
-        fh,fh_source = self.calculate_function_headcount(insights_json=insights,function_hint=function_hint,function_share=fs,matched_skill=matched_skill)
+        fs, fs_source = self.extract_function_share(insights_json=insights, function_hint=function_hint)
+        fh, fh_source = self.calculate_function_headcount(
+            insights_json=insights,
+            function_hint=function_hint,
+            function_share=fs,
+            matched_skill=matched_skill
+        )
 
         # --- Step 5: Department fallback if no matches ---
         
@@ -235,7 +316,7 @@ class HeadcountCalculator:
             "source_type": rs_result["source_type"],
         })
 
-        return rs_result['role_share'],rs_result['source_type'],matched_skill
+        return rs_result['role_share'],rs_result['source_type'],matched_skill,rs_result['matches_reason']
     def ai_role_share(
             self,
     role: str,
@@ -302,89 +383,126 @@ class HeadcountCalculator:
             result["role_share"] = rs
             result["source_type"] = "skill_match"
         else:
+            # Ensure function_share is a float
+            if isinstance(function_share, tuple):
+                function_share = function_share[0]  # take the first element
             rs = max(0.05, function_share)
             result["role_share"] = rs
             result["matches_reason"] = "No valid matches, fallback to function_share"
             result["source_type"] = "department_fallback"
 
         return result
-
     
-    def parse_location_from_query(self, query: str) -> str:
-        """Extract location from natural language query"""
-        # Common location patterns
-        location_patterns = [
-            r'in\s+([^?]+?)(?:\s+over|\s+in|\s*\?|$)',
-            r'at\s+([^?]+?)(?:\s+over|\s+in|\s*\?|$)',
-            r'for\s+([^?]+?)(?:\s+over|\s+in|\s*\?|$)',
-        ]
-        
-        query_lower = query.lower()
-        for pattern in location_patterns:
-            match = re.search(pattern, query_lower)
-            if match:
-                location = match.group(1).strip()
-                # Clean up common words
-                location = re.sub(r'\b(the|next|12|months?|years?)\b', '', location).strip()
-                return location
-        
-        return None
-    
-    def extract_location_info(self, insights_json: Dict, location_query: str = None) -> Tuple[float, str, Dict]:
-        """Extract location share and info"""
-        locations = insights_json.get('locations', [])
-        
-        if not locations:
-            return 1.0, "fallback", None
-        
-        # If specific location requested, find it
-        if location_query:
-            location_query_lower = location_query.lower().strip()
-            for location in locations:
-                location_name = location.get('location', '').lower()
+    def ask_gpt_relevance(self, location_query: str, locations: list) -> Dict[str, Any]:
+        """Use GPT to decide if query location is relevant to any known locations"""
+        prompt = f"""
+    You are an expert location-matching assistant.
 
-                # Try multiple matching strategies
-                matches = [
-                    location_query_lower in location_name,
-                    location_name in location_query_lower,
-                    # Check for key words (e.g., "beijing" matches "Beijing, China")
-                    any(word in location_name for word in location_query_lower.split() if len(word) > 2),
-                    # Check for exact city match (e.g., "bengaluru" matches "Greater Bengaluru Area")
-                    any(word in location_query_lower for word in location_name.split() if len(word) > 3)
-                ]
+    Query location: "{location_query}"
 
-                if any(matches):
-                    employees_current = insights_json.get('company_profile', {}).get('employees_current', 1)
-                    location_employees = location.get('employees', 0)
-                    location_share = round(location_employees / employees_current, 6) if employees_current > 0 else 0.0
-                    return location_share, "explicit", location
+    Company known locations: {', '.join(loc.get('location', '') for loc in locations)}
+
+    Your task:
+    - Determine if the query location refers to, or is equivalent to, any of the known locations.
+    - Handle:
+        - Typos and alternate spellings (e.g., "Bengluru" → "Bangalore")
+        - Historical/old names (e.g., "Bombay" → "Mumbai")
+        - Descriptive names (e.g., "Greater Bengaluru Area" → "Bengaluru")
+        - Abbreviations (e.g., "NYC" → "New York City")
+    - Pick the **most appropriate matching location** if multiple candidates exist.
+
+    Output requirements:
+    - Return ONLY JSON with two fields:
+    {{
+        "relevant": true/false,
+        "matched_location": "<best matching location from company data, or null if none>"
+    }}
+
+    Few examples for guidance:
+    1. Query: "Bengluru", Locations: ["Greater Bengaluru Area", "Mumbai", "Delhi"]
+    Output: {{"relevant": true, "matched_location": "Greater Bengaluru Area"}}
+
+    2. Query: "Bombay", Locations: ["Mumbai", "Chennai"]
+    Output: {{"relevant": true, "matched_location": "Mumbai"}}
+
+    3. Query: "UnknownTown", Locations: ["Mumbai", "Chennai"]
+    Output: {{"relevant": false, "matched_location": null}}
+    """
+        try:
+            client = OpenAI()
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0
+            )
+            # Correct dot access for ChatCompletionMessage
+            gpt_content = response.choices[0].message.content.strip()
+            return json.loads(gpt_content)
+        except Exception as e:
+            print(f"GPT relevance check failed: {e}")
+            return None
+
+
+    def extract_location_info(self, insights_json: Dict, location_query: str = None) -> Tuple[float, str, Dict]: 
+        """Extract location share and info""" 
+        locations = insights_json.get('locations', []) 
+        if not locations: 
+            return 1.0, "fallback", None 
         
-        # If no specific location or not found, calculate total location share
-        total_location_employees = sum(loc.get('employees', 0) for loc in locations)
-        employees_current = insights_json.get('company_profile', {}).get('employees_current', 1)
+        if location_query: 
+            location_query_lower = location_query.lower().strip() 
+            best_match = None 
+            best_score = 0 
+            for location in locations: 
+                location_name = location.get('location', '').lower() 
+                score = 0 
+                if location_query_lower == location_name: 
+                    score = 100  # exact match 
+                elif location_name.startswith(location_query_lower): 
+                    score = 90 
+                elif location_query_lower in location_name: 
+                    score = 80 
+                elif any(word in location_name for word in location_query_lower.split() if len(word) > 2): 
+                    score = 70 
+                elif any(word in location_query_lower for word in location_name.split() if len(word) > 3): 
+                    score = 60 
+                
+                if score > best_score: 
+                    best_score = score 
+                    best_match = location 
+            
+            if best_match: 
+                employees_current = insights_json.get('company_profile', {}).get('employees_current', 1) 
+                location_employees = best_match.get('employees', 0) 
+                location_share = round(location_employees / employees_current, 6) if employees_current > 0 else 0.0
+                return location_share, "explicit", best_match 
         
-        if total_location_employees > 0 and employees_current > 0:
-            location_share = round(total_location_employees / employees_current, 6)
-            return location_share, "derived", {"total_employees": total_location_employees}
+        # Fallback: total location share 
+        total_location_employees = sum(loc.get('employees', 0) for loc in locations) 
+        employees_current = insights_json.get('company_profile', {}).get('employees_current', 1) 
+        if total_location_employees > 0 and employees_current > 0: 
+            location_share = round(total_location_employees / employees_current, 6) 
+            return location_share, "derived", {"total_employees": total_location_employees} 
         
         return 1.0, "fallback", None
 
+
     def extract_attrition_rate(self, insights_json: Dict, function_hint: str) -> Tuple[float, str]:
-        """Extract attrition rate for function"""
-        attrition_breakdown = insights_json.get('attrition_breakdown', {})
-        by_function = attrition_breakdown.get('by_function', [])
+            """Extract attrition rate for function"""
+            attrition_breakdown = insights_json.get('attrition_breakdown', {})
+            by_function = attrition_breakdown.get('by_function', [])
 
-        # Look for function-specific attrition rate
-        for func in by_function:
-            if func.get('function', '').lower() == function_hint.lower():
-                return round(func.get('attrition_percent', 0) / 100, 4), "explicit"
+            # Look for function-specific attrition rate
+            for func in by_function:
+                if func.get('function', '').lower() == function_hint.lower():
+                    return round(func.get('attrition_percent', 0) / 100, 4), "explicit"
 
-        # Fallback to company-wide attrition
-        company_attrition = insights_json.get('company_profile', {}).get('attrition_percent_1y', 0)
-        if company_attrition > 0:
-            return round(company_attrition / 100, 4), "derived"
+            # Fallback to company-wide attrition
+            company_attrition = insights_json.get('company_profile', {}).get('attrition_percent_1y', 0)
+            if company_attrition > 0:
+                return round(company_attrition / 100, 4), "derived"
 
-        return 0.05, "fallback"  # Default fallback
+            return 0.05, "fallback"  # Default fallback
 
     def calculate_function_headcount(self, insights_json: Dict, function_hint: str,
                                    matched_skill: Optional[Dict], function_share: float) -> Tuple[int, str]:
@@ -559,9 +677,7 @@ class HeadcountCalculator:
     def calculate_headcount_prediction(self, insights_json: Dict, role: str, location_query: str = None,client: Any = None,) -> Dict[str, Any]:
         """Main method to calculate headcount prediction with optional location support"""
         # Parse location from query if provided
-        target_location = None
-        if location_query:
-            target_location = self.parse_location_from_query(location_query)
+        target_location = location_query
         
         employees_current = insights_json.get("company_profile", {}).get("employees_current", 0)
 
@@ -573,7 +689,7 @@ class HeadcountCalculator:
         function_share, fs_source = self.extract_function_share(insights_json, function_hint)
             
         # Step 3: Calculating Role share
-        role_share,rs_source,matched_skill = self.ai_match_tokens_to_skills(insights=insights_json,role=role,employees_current=employees_current,client=client)
+        role_share,rs_source,matched_skill,match_reason = self.ai_match_tokens_to_skills(insights=insights_json,role=role,employees_current=employees_current,client=client)
 
         # Step 4: Calculate function headcount
         function_headcount, fh_source = self.calculate_function_headcount(
@@ -598,8 +714,10 @@ class HeadcountCalculator:
                 role_share, growth_rate, attrition_rate)
 
         # Step 9: Calculate location-specific demand if applicable
+        print(f"Target: '{target_location}'")
+        is_location_flag = self.verify_location(insights=insights_json,target_location=target_location)
         location_demand = None
-        if location_share < 1.0:  # Only calculate if specific location
+        if location_info and location_share < 1.0:  # Only calculate if specific location
                 location_demand = math.ceil(demands['headcount'] * location_share)
 
         # Step 10: Prepare parameter sources for confidence calculation
@@ -655,9 +773,11 @@ class HeadcountCalculator:
                 },
                 'debug_info': {
                     'matched_skill': matched_skill,
+                    'match_reason':match_reason,
                     'parameter_sources': parameter_sources,
                     'target_location': target_location,
-                    'location_info': location_info
+                    'location_info': location_info,
+                    'is_location_valid': is_location_flag
                 }
             }
 

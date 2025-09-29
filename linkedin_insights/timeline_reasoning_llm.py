@@ -1,7 +1,6 @@
 # timeline_reasoning_llm.py
 
 from linkedin_insights.llm_utils import call_gpt
-from linkedin_insights.linkedin_insights_llm_predictor import predict_headcount_llm
 import math
 
 

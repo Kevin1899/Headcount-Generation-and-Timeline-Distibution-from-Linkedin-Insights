@@ -14,7 +14,6 @@ from pathlib import Path
 from typing import Any, Dict
 
 from .extractor import extract_insights  # re-export
-from .linkedin_insights_llm_predictor import predict_headcount_llm
 
 
 __all__ = ["extract_insights", "predict_headcount_llm"]

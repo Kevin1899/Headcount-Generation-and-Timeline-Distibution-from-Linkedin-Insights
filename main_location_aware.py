@@ -119,19 +119,19 @@ Return JSON only in this format:
             "explanation": explanation
         }
 
+
 def main():
     parser = argparse.ArgumentParser(description='Location-Aware LinkedIn Insights Headcount Predictor')
     parser.add_argument('pdf_path', help='Path to the LinkedIn Insights PDF file')
     parser.add_argument('--role', '-r', help='Target role to predict (e.g., "AI Engineer")')
     parser.add_argument('--location', '-l', help='Target location (e.g., "Greater Bengaluru")')
-    parser.add_argument('--query', '-q', help='Natural language query (e.g., "How many AI Engineers in Bengaluru?")')
     parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose output')
     parser.add_argument('--output', '-o', help='Output JSON file path (optional)')
 
     args = parser.parse_args()
 
     # Validate arguments
-    if not args.role and not args.query:
+    if not args.role:
         parser.error("Either --role or --query must be provided")
     
     try:
@@ -165,38 +165,14 @@ def main():
             logger.info(f"🌍 Locations available: {len(locations)}")
         
         # Step 2: Determine query type and location
-        location_query = args.query or args.location
-
-        # Extract role from query if not provided separately
-        if args.query and not args.role:
-            query_lower = args.query.lower()
-            if 'ai engineer' in query_lower:
-                role = 'AI Engineer'
-            elif 'data scientist' in query_lower:
-                role = 'Data Scientist'
-            elif 'software engineer' in query_lower:
-                role = 'Software Engineer'
-            elif 'azure sql engineer' in query_lower:
-                role = 'Azure SQL Engineer'
-            elif 'engineer' in query_lower:
-                role = 'Engineer'
-            else:
-                # Try to extract role from query
-                import re
-                role_match = re.search(r'how many ([^?]+?) will be hired', query_lower)
-                if role_match:
-                    role = role_match.group(1).title()
-                else:
-                    parser.error("Could not extract role from query. Please specify --role explicitly.")
-        else:
-            role = args.role or 'Engineer'
+        location_query = args.location
         
         # Step 3: Calculate headcount using location-aware calculator
         logger.info("🧮 Calculating location-aware headcount...")
         calc_start_time = time.time()
         
         calculator = HeadcountCalculator()
-        result = calculator.calculate_headcount_prediction(insights_json, role, location_query)
+        result = calculator.calculate_headcount_prediction(insights_json, args.role, location_query)
 
         headcount = result['result']['headcount']
         
@@ -208,20 +184,22 @@ def main():
         print("🌍 LOCATION-AWARE HEADCOUNT PREDICTION RESULTS")
         print("=" * 70)
         
-        if args.query:
-            print(f"❓ Query: {args.query}")
         
-        print(f"🎯 Role: {role}")
+        print(f"🎯 Role: {args.role}")
         
         # Show location information
         target_location = result['debug_info']['target_location']
         location_info = result['debug_info']['location_info']
+        location_flag = result['debug_info']['is_location_valid']
+        print(f"Here is the Target Location {target_location} ")
+        print(f"Here is the Location Info{location_info}")
+        print(f"Here is the Location Flag {location_flag}")
         
-        if target_location and location_info:
-            print(f"📍 Target Location: {location_info.get('location', target_location)}")
+        if location_flag and location_info.get('location'):
+            print(f"📍 Target Location: {location_info.get('location')}")
             print(f"   Employees: {location_info.get('employees', 0):,}")
             print(f"   Location Share: {result['calc']['inputs']['location_share']:.1%}")
-        elif target_location:
+        elif location_info is None or not location_info.get('location'):
             print(f"📍 Target Location: {target_location} (not found in data)")
         else:
             print(f"📍 Scope: Global")
@@ -245,10 +223,11 @@ def main():
             print(f"  Function Headcount: {inputs['function_headcount']:,}")
             print(f"  Role Share: {inputs['role_share']}")
             print(f"  Attrition Rate: {inputs['attrition_rate']}")
-            
+            # print("Location Flag",location_flag)
             matched_skill = result['debug_info']['matched_skill']
+            matched_reason = result['debug_info']['match_reason']
             if matched_skill:
-                print(f"  Matched Skill: {matched_skill['name']} ({matched_skill['employees']:,} employees)")
+                print(f"  Matched Skill: {matched_skill['name']} ({matched_skill['employees']:,} employees) and Reason is : {matched_reason}")
             else:
                 print(f"  Matched Skill: None (using department calculation)")
             
@@ -260,7 +239,7 @@ def main():
             print(f"    Backfill Demand = ceil({inputs['function_headcount']} × {inputs['attrition_rate']} × {inputs['role_share']}) = {res['backfill_demand']}")
             print(f"    Total = {res['active_demand']} + {res['growth_demand']} + {res['backfill_demand']} = {res['headcount']}")
             
-            if res['location_demand']:
+            if location_flag and res['location_demand']:
                 print(f"  Location-Specific:")
                 print(f"    Location Demand = ceil({res['headcount']} × {inputs['location_share']}) = {res['location_demand']}")
         
